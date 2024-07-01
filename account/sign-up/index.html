@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign in</title>
+    <title>Sign up</title>
   </head>
   <body>
-    <form id="sign-in">
-      <h2>Sign in</h2>
+    <form id="sign-up">
+      <h2>Sign up</h2>
+      <label>
+        Email
+        <input autocomplete="email" name="email" required type="email" />
+      </label>
+      <br />
       <label>
         Username
         <input autocomplete="username" name="username" required type="text" />
@@ -24,10 +29,10 @@
         />
       </lable>
       <br />
-      <button type="submit">Sign in</button>
+      <button type="submit">Sign up</button>
     </form>
     <script src="https://sdk.userbase.com/2/userbase.js"></script>
-    <script src="../config.js"></script>
-    <script src="/account/sign-in.js"></script>
+    <script src="../../config.js"></script>
+    <script src="sign-up.js"></script>
   </body>
 </html>
