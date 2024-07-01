@@ -6,7 +6,7 @@
     })
     .then(() => {
       window.userbase.signOut().then(() => {
-        window.location.href = '/';
+        window.location.href = '/chat-example';
       });
     });
 }

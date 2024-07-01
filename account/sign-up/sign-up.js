@@ -18,7 +18,7 @@
       );
 
       window.userbase.signUp({ username, password, email }).then(() => {
-        window.location.href = '/';
+        window.location.href = '/chat-example';
       });
     },
   };
