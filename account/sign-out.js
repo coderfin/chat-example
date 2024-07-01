@@ -1,7 +1,7 @@
 {
   window.userbase
     .init({
-      appId: process.env.APP_ID,
+      appId: window.config.APP_ID,
       allowServerSideEncryption: true,
     })
     .then(() => {
