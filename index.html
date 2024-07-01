@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebSocket Chat Demo</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <a href="/account/sign-up.html">Sign up</a>
+    <br />
+    <a href="/account/sign-in.html">Sign in</a>
+    <br />
+    <a href="/account/sign-out.html">Sign out</a>
+    <br />
+    <br />
+    <section id="chats">
+      Chats:
+      <ul></ul>
+    </section>
+    <br />
+    <br />
+    <section>
+      Chat:
+      <input autocomplete="off" disabled id="chat" size="80" type="text" />
+      <input disabled id="send" type="button" value="Send" />
+    </section>
+    <script src="https://sdk.userbase.com/2/userbase.js"></script>
+    <script src="chat-client.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
